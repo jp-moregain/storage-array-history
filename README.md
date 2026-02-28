@@ -151,3 +151,4 @@ Website code is MIT licensed - feel free to fork and modify!
 ---
 
 Created by [@jp-moregain](https://github.com/jp-moregain) | February 2026
+# Trigger rebuild
