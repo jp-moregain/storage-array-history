@@ -230,6 +230,16 @@ main {
     margin-left: 0.5rem;
 }
 
+.download-link.external {
+    background: #e0f2fe;
+    color: #0369a1;
+}
+
+.download-link.external:hover {
+    background: #0369a1;
+    color: white;
+}
+
 /* Footer */
 footer {
     background: var(--text);

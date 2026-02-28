@@ -11,7 +11,7 @@
         <h1>🏢 Enterprise Storage Array History</h1>
         <p>A comprehensive archive of storage arrays from DellEMC, IBM, HPE, NetApp, Hitachi, and Everpure (formerly Pure Storage)</p>
         <div class="stats">
-            <span class="stat">📊 50+ Spec Sheets</span>
+            <span class="stat">📊 276 Arrays Cataloged</span>
             <span class="stat">🏭 6 Vendors</span>
             <span class="stat">📅 2000-2025</span>
         </div>
@@ -24,8 +24,7 @@
             <p><strong>📢 Rebrand Updates:</strong> <br>
             • <strong>Feb 2026:</strong> Pure Storage → <strong>Everpure</strong><br>
             • <strong>Post-2016:</strong> EMC → Dell EMC (Symmetrix→PowerMax, Isilon→PowerScale, VNX→Unity/PowerStore)</p>
-            
-            <p>Each entry includes release year, specifications, and downloadable datasheets where available.</p>
+            <p><strong>📄 Legend:</strong> 🟢 PDF Available | 🔗 Manufacturer Link | ⚪ Discontinued | 🟡 Current</p>
         </section>
 
         <section class="filters">
@@ -44,97 +43,242 @@
                 <p style="color: #64748b; font-size: 0.9rem; margin-bottom: 1rem;">🔄 <strong>Historical Note:</strong> After Dell acquired EMC in 2016, many products were rebranded: Symmetrix → PowerMax, Isilon → PowerScale, VNX → Unity/PowerStore.</p>
                 
                 <div class="array-grid">
+                    <!-- Current Products -->
                     <div class="array-card current">
                         <h3>PowerMax 2500/8500</h3>
                         <span class="year">2023</span>
                         <span class="type">All-Flash SAN</span>
                         <p>Entry-level to mid-range enterprise all-flash arrays with NVMe</p>
-                        <a href="pdfs/DellEMC/Dell_PowerMax_Series_SitePlanning_ManualsLib.pdf" class="download-link" target="_blank">📄 Download Spec Sheet</a>
+                        <a href="https://www.dell.com/en-us/dt/storage/powermax/powermax-2500-all-flash-storage-array.htm" class="download-link external" target="_blank">🔗 View on Dell.com</a>
+                    </div>
+                    <div class="array-card current">
+                        <h3>PowerMax 2500R/8500R</h3>
+                        <span class="year">2023</span>
+                        <span class="type">Rack-Optimized SAN</span>
+                        <p>Rack-optimized versions of PowerMax</p>
+                        <a href="https://www.dell.com/en-us/dt/storage/powermax.htm" class="download-link external" target="_blank">🔗 View on Dell.com</a>
+                    </div>
+                    <div class="array-card current">
+                        <h3>PowerScale F900/F600/F200</h3>
+                        <span class="year">2021</span>
+                        <span class="type">All-Flash NAS</span>
+                        <p>All-NVMe scale-out NAS (formerly Isilon)</p>
+                        <a href="https://www.dell.com/en-us/shop/dell-powerscale/sf/powerscale" class="download-link external" target="_blank">🔗 View on Dell.com</a>
+                    </div>
+                    <div class="array-card current">
+                        <h3>PowerScale H7000</h3>
+                        <span class="year">2023</span>
+                        <span class="type">Hybrid NAS</span>
+                        <p>Hybrid scale-out NAS for mixed workloads</p>
+                        <a href="https://www.dell.com/en-us/shop/dell-powerscale/sf/powerscale" class="download-link external" target="_blank">🔗 View on Dell.com</a>
+                    </div>
+                    <div class="array-card current">
+                        <h3>PowerScale A300/A3000</h3>
+                        <span class="year">2021</span>
+                        <span class="type">Archive NAS</span>
+                        <p>Archive-optimized scale-out nodes</p>
+                        <a href="https://www.dell.com/en-us/shop/dell-powerscale/sf/powerscale" class="download-link external" target="_blank">🔗 View on Dell.com</a>
                     </div>
                     <div class="array-card current">
                         <h3>PowerStore 500T/1000T/3000T/9000T</h3>
                         <span class="year">2020</span>
                         <span class="type">Unified Storage</span>
-                        <p>Next-generation unified storage with AppsON capability</p>
-                        <a href="pdfs/DellEMC/Dell_PowerStore_HardwareGuide_ThirdParty.pdf" class="download-link" target="_blank">📄 Download Spec Sheet</a>
+                        <p>Next-generation unified storage with AppsON</p>
+                        <a href="pdfs/DellEMC/Dell_PowerStore_HardwareGuide_ThirdParty.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
+                    </div>
+                    <div class="array-card current">
+                        <h3>PowerStore 500Q/1000Q/1200Q</h3>
+                        <span class="year">2022</span>
+                        <span class="type">All-NVMe SAN</span>
+                        <p>All-NVMe variants of PowerStore</p>
+                        <a href="https://www.dell.com/en-us/dt/storage/powerstore.htm" class="download-link external" target="_blank">🔗 View on Dell.com</a>
                     </div>
                     <div class="array-card current">
                         <h3>Unity XT 380/480/680/880</h3>
                         <span class="year">2019</span>
                         <span class="type">Unified Storage</span>
-                        <p>Mid-range unified SAN/NAS with active-active controllers</p>
-                        <a href="pdfs/DellEMC/Dell_Unity_XT_HardwareGuide.pdf" class="download-link" target="_blank">📄 Download Spec Sheet</a>
+                        <p>Mid-range unified SAN/NAS with active-active</p>
+                        <a href="pdfs/DellEMC/Dell_Unity_XT_HardwareGuide.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
                     </div>
+
+                    <!-- Discontinued Products -->
                     <div class="array-card discontinued">
                         <h3>VMAX All-Flash 250F/450F/850F/950F</h3>
                         <span class="year">2015-2018</span>
                         <span class="type">All-Flash SAN</span>
-                        <p>Tier-1 all-flash enterprise storage with HYPERMAX OS</p>
-                        <a href="pdfs/DellEMC/Dell_VMAX_AllFlash_SpecSheet_Gotomojo.pdf" class="download-link" target="_blank">📄 Download Spec Sheet</a>
+                        <p>Tier-1 all-flash enterprise storage</p>
+                        <a href="pdfs/DellEMC/Dell_VMAX_AllFlash_SpecSheet_Gotomojo.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
                     </div>
                     <div class="array-card discontinued">
                         <h3>VMAX3 Family</h3>
                         <span class="year">2014-2017</span>
                         <span class="type">Enterprise SAN</span>
-                        <p>Third-generation VMAX with service-level objective provisioning</p>
-                        <a href="pdfs/DellEMC/EMC_VMAX3_Family_Datasheet.pdf" class="download-link" target="_blank">📄 Download Spec Sheet</a>
+                        <p>Third-generation VMAX with SLO provisioning</p>
+                        <a href="pdfs/DellEMC/EMC_VMAX3_Family_Datasheet.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
                     </div>
                     <div class="array-card discontinued">
                         <h3>Symmetrix VMAX 10K/20K/40K</h3>
                         <span class="year">2009-2015</span>
                         <span class="type">Enterprise SAN</span>
-                        <p>Virtual Matrix architecture enterprise arrays</p>
-                        <a href="pdfs/DellEMC/EMC_VMAX_10K_Datasheet.pdf" class="download-link" target="_blank">📄 Download Spec Sheet</a>
+                        <p>Virtual Matrix architecture</p>
+                        <a href="pdfs/DellEMC/EMC_VMAX_10K_Datasheet.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
+                        <a href="pdfs/DellEMC/EMC_VMAX_40K_Datasheet.pdf" class="download-link" target="_blank">🟢 VMAX 40K</a>
                     </div>
                     <div class="array-card discontinued">
                         <h3>Symmetrix DMX-3/DMX-4</h3>
                         <span class="year">2003-2008</span>
                         <span class="type">Enterprise SAN</span>
-                        <p>Director-based matrix architecture, the gold standard of 2000s</p>
-                        <a href="pdfs/DellEMC/EMC_Symmetrix_DMX3_Datasheet.pdf" class="download-link" target="_blank">📄 Download DMX-3</a>
-                        <a href="pdfs/DellEMC/EMC_Symmetrix_DMX4_Datasheet.pdf" class="download-link" target="_blank">📄 Download DMX-4</a>
+                        <p>Director-based matrix architecture</p>
+                        <a href="pdfs/DellEMC/EMC_Symmetrix_DMX3_Datasheet.pdf" class="download-link" target="_blank">🟢 Download DMX-3</a>
+                        <a href="pdfs/DellEMC/EMC_Symmetrix_DMX4_Datasheet.pdf" class="download-link" target="_blank">🟢 DMX-4</a>
                     </div>
                     <div class="array-card discontinued">
-                        <h3>CLARiiON CX3/CX4 Series</h3>
-                        <span class="year">2005-2011</span>
+                        <h3>Symmetrix 8000 Series</h3>
+                        <span class="year">2000-2003</span>
+                        <span class="type">Enterprise SAN</span>
+                        <p>Pre-DMX generation</p>
+                        <a href="https://www.dell.com/support/home/en-us/product-support/product/symmetrix-8000/docs" class="download-link external" target="_blank">🔗 Dell Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>CLARiiON CX3 Series (CX300/500/700)</h3>
+                        <span class="year">2005-2008</span>
                         <span class="type">Mid-range SAN</span>
-                        <p>Popular mid-range Fibre Channel arrays</p>
-                        <a href="pdfs/DellEMC/EMC_CLARiiON_CX4_Datasheet.pdf" class="download-link" target="_blank">📄 Download CX4</a>
+                        <p>Fibre Channel mid-range arrays</p>
+                        <a href="pdfs/DellEMC/EMC_CLARiiON_CX300_Datasheet.pdf" class="download-link" target="_blank">🟢 Download CX300</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>CLARiiON CX4 Series (CX4-120/240/480/960)</h3>
+                        <span class="year">2008-2011</span>
+                        <span class="type">Mid-range SAN</span>
+                        <p>Popular mid-range Fibre Channel</p>
+                        <a href="pdfs/DellEMC/EMC_CLARiiON_CX4_Datasheet.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>VNX Series (5100/5300/5500/5700/7500)</h3>
+                        <span class="year">2011-2013</span>
+                        <span class="type">Unified Storage</span>
+                        <p>First-generation unified storage</p>
+                        <a href="https://www.dell.com/support/home/en-us/product-support/product/emc-vnx-series/docs" class="download-link external" target="_blank">🔗 Dell Support</a>
                     </div>
                     <div class="array-card discontinued">
                         <h3>VNX2 Series (5200/5400/5600/5800/7600/8000)</h3>
                         <span class="year">2013-2017</span>
                         <span class="type">Unified Storage</span>
-                        <p>MCx multi-core optimized unified storage</p>
-                        <a href="pdfs/DellEMC/EMC_VNX2_Series_SpecSheet.pdf" class="download-link" target="_blank">📄 Download VNX2</a>
+                        <p>MCx multi-core optimized unified</p>
+                        <a href="pdfs/DellEMC/EMC_VNX2_Series_SpecSheet.pdf" class="download-link" target="_blank">🟢 Download VNX2</a>
+                        <a href="pdfs/DellEMC/EMC_VNX5200_VNX5400_SpecSheet.pdf" class="download-link" target="_blank">🟢 VNX5200/5400</a>
                     </div>
                     <div class="array-card discontinued">
-                        <h3>XtremIO X2</h3>
-                        <span class="year">2017-2020</span>
+                        <h3>VNXe1600/3200</h3>
+                        <span class="year">2015-2020</span>
+                        <span class="type">Entry Unified</span>
+                        <p>SMB-focused entry-level VNX</p>
+                        <a href="https://www.dell.com/support/home/en-us/product-support/product/emc-vnx-series/docs" class="download-link external" target="_blank">🔗 Dell Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>XtremIO X1/X2</h3>
+                        <span class="year">2014-2020</span>
                         <span class="type">All-Flash SAN</span>
-                        <p>Second-generation all-flash array with inline dedupe</p>
-                        <a href="pdfs/DellEMC/Dell_XtremIO_X2_SpecSheet_Gotomojo.pdf" class="download-link" target="_blank">📄 Download Spec Sheet</a>
+                        <p>All-flash with inline dedupe</p>
+                        <a href="pdfs/DellEMC/Dell_XtremIO_X2_SpecSheet_Gotomojo.pdf" class="download-link" target="_blank">🟢 Download X2</a>
                     </div>
                     <div class="array-card discontinued">
-                        <h3>Isilon X-Series (X200/X400)</h3>
+                        <h3>Isilon IQ Series (1920i/3000/6000)</h3>
+                        <span class="year">2005-2007</span>
+                        <span class="type">Scale-out NAS</span>
+                        <p>Original scale-out storage nodes</p>
+                        <a href="https://www.dell.com/support/home/en-us/product-support/product/isilon-iq-series/docs" class="download-link external" target="_blank">🔗 Dell Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>Isilon S-Series (S200/S210)</h3>
                         <span class="year">2009-2018</span>
                         <span class="type">Scale-out NAS</span>
-                        <p>Capacity-performance balanced scale-out NAS</p>
-                        <a href="pdfs/DellEMC/EMC_Isilon_XSeries_SpecSheet.pdf" class="download-link" target="_blank">📄 Download X-Series</a>
+                        <p>Performance tier scale-out</p>
+                        <a href="https://www.dell.com/support/home/en-us/product-support/product/isilon-s-series/docs" class="download-link external" target="_blank">🔗 Dell Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>Isilon X-Series (X200/X210/X400/X410)</h3>
+                        <span class="year">2009-2018</span>
+                        <span class="type">Scale-out NAS</span>
+                        <p>Capacity-performance balance</p>
+                        <a href="pdfs/DellEMC/EMC_Isilon_XSeries_SpecSheet.pdf" class="download-link" target="_blank">🟢 Download X-Series</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>Isilon NL-Series (NL400/NL410)</h3>
+                        <span class="year">2009-2018</span>
+                        <span class="type">Archive NAS</span>
+                        <p>Near-line archive tier</p>
+                        <a href="pdfs/DellEMC/EMC_Isilon_NL400_Datasheet.pdf" class="download-link" target="_blank">🟢 Download NL400</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>Isilon HD-Series (HD400)</h3>
+                        <span class="year">2012-2018</span>
+                        <span class="type">High-Density NAS</span>
+                        <p>High-density archive storage</p>
+                        <a href="https://www.dell.com/support/home/en-us/product-support/product/isilon-hd-series/docs" class="download-link external" target="_blank">🔗 Dell Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>Isilon A-Series (A200/A2000)</h3>
+                        <span class="year">2016-2021</span>
+                        <span class="type">Archive NAS</span>
+                        <p>Archive-optimized pre-PowerScale</p>
+                        <a href="https://www.dell.com/support/home/en-us/product-support/product/isilon-a-series/docs" class="download-link external" target="_blank">🔗 Dell Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>Celerra NS-120/480/960</h3>
+                        <span class="year">2002-2011</span>
+                        <span class="type">NAS Gateway</span>
+                        <p>NAS heads for CLARiiON</p>
+                        <a href="https://www.dell.com/support/home/en-us/product-support/product/celerra-ns-series/docs" class="download-link external" target="_blank">🔗 Dell Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>Celerra NSX</h3>
+                        <span class="year">2007-2012</span>
+                        <span class="type">Unified Storage</span>
+                        <p>Integrated unified storage</p>
+                        <a href="https://www.dell.com/support/home/en-us/product-support/product/celerra-nsx/docs" class="download-link external" target="_blank">🔗 Dell Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>Centera</h3>
+                        <span class="year">2002-2018</span>
+                        <span class="type">Archive SAN</span>
+                        <p>Content-addressed storage</p>
+                        <a href="https://www.dell.com/support/home/en-us/product-support/product/emc-centera/docs" class="download-link external" target="_blank">🔗 Dell Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>Data Domain (DD Series)</h3>
+                        <span class="year">2007-2022</span>
+                        <span class="type">Backup Appliance</span>
+                        <p>Deduplication storage → PowerProtect</p>
+                        <a href="https://www.dell.com/support/home/en-us/product-support/product/data-domain-series/docs" class="download-link external" target="_blank">🔗 Dell Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>VPLEX</h3>
+                        <span class="year">2010-2022</span>
+                        <span class="type">Storage Virtualization</span>
+                        <p>Federated storage mobility</p>
+                        <a href="https://www.dell.com/support/home/en-us/product-support/product/emc-vplex/docs" class="download-link external" target="_blank">🔗 Dell Support</a>
                     </div>
                     <div class="array-card discontinued">
                         <h3>Compellent Storage Center</h3>
                         <span class="year">2002-2019</span>
                         <span class="type">SAN</span>
-                        <p>Dynamic block storage with automated tiering</p>
-                        <a href="pdfs/DellEMC/Dell_Compellent_StorageCenter_Datasheet.pdf" class="download-link" target="_blank">📄 Download Compellent</a>
+                        <p>Dynamic block storage with auto-tiering</p>
+                        <a href="pdfs/DellEMC/Dell_Compellent_StorageCenter_Datasheet.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
                     </div>
                     <div class="array-card discontinued">
-                        <h3>EqualLogic PS6100</h3>
+                        <h3>Compellent SC4020/5020/7020/9000</h3>
+                        <span class="year">2014-2019</span>
+                        <span class="type">SAN</span>
+                        <p>Various Compellent models</p>
+                        <a href="pdfs/DellEMC/Dell_Compellent_SC5020_SpecSheet.pdf" class="download-link" target="_blank">🟢 Download SC5020</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>EqualLogic PS Series</h3>
                         <span class="year">2007-2016</span>
                         <span class="type">iSCSI SAN</span>
                         <p>Popular iSCSI SAN for mid-market</p>
-                        <a href="pdfs/DellEMC/Dell_EqualLogic_PS6100_SpecSheet.pdf" class="download-link" target="_blank">📄 Download EqualLogic</a>
+                        <a href="pdfs/DellEMC/Dell_EqualLogic_PS6100_SpecSheet.pdf" class="download-link" target="_blank">🟢 Download PS6100</a>
                     </div>
                 </div>
             </div>
@@ -143,48 +287,107 @@
             <div class="vendor-section" data-vendor="ibm">
                 <h2>🔵 IBM</h2>
                 <div class="array-grid">
+                    <!-- Current -->
+                    <div class="array-card current">
+                        <h3>FlashSystem 5010/5030/5100</h3>
+                        <span class="year">2020</span>
+                        <span class="type">Entry/Mid-range SAN</span>
+                        <p>Rebranded Storwize series</p>
+                        <a href="https://www.ibm.com/products/flashsystem-5000" class="download-link external" target="_blank">🔗 View on IBM.com</a>
+                    </div>
                     <div class="array-card current">
                         <h3>FlashSystem 5200/7200/9200</h3>
                         <span class="year">2020</span>
-                        <span class="type">NVMe SAN</span>
-                        <p>End-to-end NVMe enterprise storage with AI-powered management</p>
-                        <a href="pdfs/IBM/IBM_FlashSystem_5200_ProductGuide.pdf" class="download-link" target="_blank">📄 Download Product Guide</a>
+                        <span class="type">Mid to High-range SAN</span>
+                        <p>Mid to high-range NVMe storage</p>
+                        <a href="pdfs/IBM/IBM_FlashSystem_5200_ProductGuide.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
+                    </div>
+                    <div class="array-card current">
+                        <h3>FlashSystem 9200R</h3>
+                        <span class="year">2021</span>
+                        <span class="type">Rack SAN</span>
+                        <p>Rack-scale storage system</p>
+                        <a href="https://www.ibm.com/products/flashsystem-9000" class="download-link external" target="_blank">🔗 View on IBM.com</a>
+                    </div>
+                    <div class="array-card current">
+                        <h3>FlashSystem 7300/9500</h3>
+                        <span class="year">2022</span>
+                        <span class="type">Latest Generation</span>
+                        <p>Latest FlashSystem generation</p>
+                        <a href="https://www.ibm.com/products/flashsystem-9500" class="download-link external" target="_blank">🔗 View on IBM.com</a>
                     </div>
                     <div class="array-card current">
                         <h3>DS8900F</h3>
                         <span class="year">2020</span>
                         <span class="type">Enterprise All-Flash</span>
-                        <p>Flagship all-flash for IBM Z and Power servers</p>
-                        <a href="pdfs/IBM/IBM_DS8900F_ProductGuide.pdf" class="download-link" target="_blank">📄 Download Product Guide</a>
+                        <p>Flagship all-flash for IBM Z</p>
+                        <a href="pdfs/IBM/IBM_DS8900F_ProductGuide.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
                     </div>
+
+                    <!-- Discontinued -->
                     <div class="array-card discontinued">
                         <h3>XIV Storage System</h3>
                         <span class="year">2007-2018</span>
                         <span class="type">Grid Storage</span>
-                        <p>Innovative grid-based architecture with massive parallelism</p>
-                        <a href="pdfs/IBM/IBM_XIV_Storage_ProductGuide.pdf" class="download-link" target="_blank">📄 Download Product Guide</a>
+                        <p>Grid-based architecture</p>
+                        <a href="pdfs/IBM/IBM_XIV_Storage_ProductGuide.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
                     </div>
                     <div class="array-card discontinued">
                         <h3>Storwize V7000</h3>
                         <span class="year">2010-2021</span>
                         <span class="type">Unified Storage</span>
-                        <p>Mid-range virtualized storage with Easy Tier</p>
-                        <a href="pdfs/IBM/IBM_Storwize_V7000_Datasheet.pdf" class="download-link" target="_blank">📄 Download Datasheet</a>
-                        <a href="pdfs/IBM/IBM_Storwize_V7000_Implementation.pdf" class="download-link" target="_blank">📄 Download Implementation Guide</a>
+                        <p>Mid-range virtualized with Easy Tier</p>
+                        <a href="pdfs/IBM/IBM_Storwize_V7000_Datasheet.pdf" class="download-link" target="_blank">🟢 Download Datasheet</a>
+                        <a href="pdfs/IBM/IBM_Storwize_V7000_Implementation.pdf" class="download-link" target="_blank">🟢 Implementation Guide</a>
                     </div>
                     <div class="array-card discontinued">
                         <h3>Storwize V3700</h3>
                         <span class="year">2012-2018</span>
                         <span class="type">Entry SAN</span>
                         <p>Entry-level SAN for SMB</p>
-                        <a href="pdfs/IBM/IBM_Storwize_V3700_Datasheet.pdf" class="download-link" target="_blank">📄 Download Datasheet</a>
+                        <a href="pdfs/IBM/IBM_Storwize_V3700_Datasheet.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
                     </div>
                     <div class="array-card discontinued">
-                        <h3>DS5000 Series (5100/5300)</h3>
+                        <h3>Storwize V3500/V5000</h3>
+                        <span class="year">2012-2020</span>
+                        <span class="type">Entry SAN</span>
+                        <p>Various Storwize models</p>
+                        <a href="https://www.ibm.com/support/pages/storwize-family" class="download-link external" target="_blank">🔗 IBM Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>DS8000 Series (DS8884/8886/8888)</h3>
+                        <span class="year">2015-2021</span>
+                        <span class="type">Enterprise SAN</span>
+                        <p>Pre-DS8900F enterprise tier</p>
+                        <a href="https://www.ibm.com/support/pages/ds8000-series" class="download-link external" target="_blank">🔗 IBM Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>DS5000 Series (5020/5100/5300)</h3>
                         <span class="year">2009-2015</span>
                         <span class="type">Mid-range SAN</span>
-                        <p>Workhorse mid-range Fibre Channel storage</p>
-                        <a href="pdfs/IBM/IBM_DS5000_Series_Datasheet.pdf" class="download-link" target="_blank">📄 Download Datasheet</a>
+                        <p>Workhorse Fibre Channel storage</p>
+                        <a href="pdfs/IBM/IBM_DS5000_Series_Datasheet.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>DS4000 Series</h3>
+                        <span class="year">2003-2009</span>
+                        <span class="type">Mid-range SAN</span>
+                        <p>Predecessor to DS5000</p>
+                        <a href="https://www.ibm.com/support/pages/ds4000-series" class="download-link external" target="_blank">🔗 IBM Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>SVC (SAN Volume Controller)</h3>
+                        <span class="year">2003-2020</span>
+                        <span class="type">Virtualization</span>
+                        <p>Storage virtualization engine</p>
+                        <a href="https://www.ibm.com/support/pages/san-volume-controller-svc" class="download-link external" target="_blank">🔗 IBM Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>ESS (Enterprise Storage Server/Shark)</h3>
+                        <span class="year">1999-2008</span>
+                        <span class="type">Enterprise SAN</span>
+                        <p>Predecessor to DS8000</p>
+                        <a href="https://www.ibm.com/support/pages/enterprise-storage-server" class="download-link external" target="_blank">🔗 IBM Support</a>
                     </div>
                 </div>
             </div>
@@ -193,41 +396,100 @@
             <div class="vendor-section" data-vendor="hitachi">
                 <h2>🟠 Hitachi Vantara</h2>
                 <div class="array-grid">
+                    <!-- Current -->
                     <div class="array-card current">
                         <h3>VSP 5000 Series</h3>
                         <span class="year">2019</span>
                         <span class="type">Enterprise NVMe</span>
                         <p>World's fastest NVMe enterprise storage</p>
-                        <a href="pdfs/Hitachi/Hitachi_VSP_5000_Series_datasheet.pdf" class="download-link" target="_blank">📄 Download Datasheet</a>
+                        <a href="pdfs/Hitachi/Hitachi_VSP_5000_Series_datasheet.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
                     </div>
                     <div class="array-card current">
                         <h3>VSP One</h3>
                         <span class="year">2023</span>
                         <span class="type">Cloud-Native</span>
                         <p>Unified cloud-native storage platform</p>
-                        <a href="pdfs/Hitachi/Hitachi_VSP_One_Block_datasheet.pdf" class="download-link" target="_blank">📄 Download Datasheet</a>
+                        <a href="pdfs/Hitachi/Hitachi_VSP_One_Block_datasheet.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
                     </div>
+                    <div class="array-card current">
+                        <h3>VSP G350/G370</h3>
+                        <span class="year">2018</span>
+                        <span class="type">Mid-range SAN</span>
+                        <p>Current G-series mid-range</p>
+                        <a href="https://www.hitachivantara.com/en-us/products/storage/vsp-g-series.html" class="download-link external" target="_blank">🔗 Hitachi.com</a>
+                    </div>
+                    <div class="array-card current">
+                        <h3>VSP G700/G900</h3>
+                        <span class="year">2018</span>
+                        <span class="type">High-end SAN</span>
+                        <p>High-end G-series storage</p>
+                        <a href="https://www.hitachivantara.com/en-us/products/storage/vsp-g-series.html" class="download-link external" target="_blank">🔗 Hitachi.com</a>
+                    </div>
+                    <div class="array-card current">
+                        <h3>VSP F350/F370/F700/F900</h3>
+                        <span class="year">2018</span>
+                        <span class="type">All-Flash</span>
+                        <p>All-flash VSP variants</p>
+                        <a href="https://www.hitachivantara.com/en-us/products/storage/vsp-f-series.html" class="download-link external" target="_blank">🔗 Hitachi.com</a>
+                    </div>
+                    <div class="array-card current">
+                        <h3>VSP E590/E790/E1090</h3>
+                        <span class="year">2020</span>
+                        <span class="type">Entry SAN</span>
+                        <p>Software-defined entry storage</p>
+                        <a href="https://www.hitachivantara.com/en-us/products/storage/vsp-e-series.html" class="download-link external" target="_blank">🔗 Hitachi.com</a>
+                    </div>
+
+                    <!-- Discontinued -->
                     <div class="array-card discontinued">
                         <h3>VSP G1000</h3>
                         <span class="year">2014-2020</span>
                         <span class="type">Enterprise SAN</span>
-                        <p>High-end enterprise storage with 100% availability guarantee</p>
-                        <a href="pdfs/Hitachi/Hitachi_VSP_G1000_Datasheet.pdf" class="download-link" target="_blank">📄 Download Datasheet</a>
+                        <p>100% availability guarantee</p>
+                        <a href="pdfs/Hitachi/Hitachi_VSP_G1000_Datasheet.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
                     </div>
                     <div class="array-card discontinued">
-                        <h3>AMS 200/500</h3>
+                        <h3>VSP G1500/F1500</h3>
+                        <span class="year">2016-2020</span>
+                        <span class="type">Enterprise SAN</span>
+                        <p>High-end enterprise tier</p>
+                        <a href="https://www.hitachivantara.com/en-us/support/products/storage/vsp-g1500.html" class="download-link external" target="_blank">🔗 Hitachi Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>AMS 200/500/1000</h3>
                         <span class="year">2004-2010</span>
                         <span class="type">Modular Storage</span>
                         <p>Adaptable Modular Storage series</p>
-                        <a href="pdfs/Hitachi/Hitachi_AMS_200_Datasheet.pdf" class="download-link" target="_blank">📄 Download AMS 200</a>
-                        <a href="pdfs/Hitachi/Hitachi_AMS_500_Datasheet.pdf" class="download-link" target="_blank">📄 Download AMS 500</a>
+                        <a href="pdfs/Hitachi/Hitachi_AMS_200_Datasheet.pdf" class="download-link" target="_blank">🟢 AMS 200</a>
+                        <a href="pdfs/Hitachi/Hitachi_AMS_500_Datasheet.pdf" class="download-link" target="_blank">🟢 AMS 500</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>AMS 2100/2300/2500</h3>
+                        <span class="year">2006-2012</span>
+                        <span class="type">Modular Storage</span>
+                        <p>Later AMS series models</p>
+                        <a href="https://www.hitachivantara.com/en-us/support/products/storage/ams-series.html" class="download-link external" target="_blank">🔗 Hitachi Support</a>
                     </div>
                     <div class="array-card discontinued">
                         <h3>HUS 110/130/150</h3>
                         <span class="year">2012-2018</span>
                         <span class="type">Unified Storage</span>
                         <p>Hitachi Unified Storage family</p>
-                        <a href="pdfs/Hitachi/Hitachi_HUS_100_Family_Datasheet.pdf" class="download-link" target="_blank">📄 Download HUS Family</a>
+                        <a href="pdfs/Hitachi/Hitachi_HUS_100_Family_Datasheet.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>HUS VM</h3>
+                        <span class="year">2014-2018</span>
+                        <span class="type">Unified Storage</span>
+                        <p>Virtualized unified storage</p>
+                        <a href="https://www.hitachivantara.com/en-us/support/products/storage/hus-vm.html" class="download-link external" target="_blank">🔗 Hitachi Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>TagmaStore USP/USP V</h3>
+                        <span class="year">2002-2010</span>
+                        <span class="type">Enterprise SAN</span>
+                        <p>Predecessor to VSP series</p>
+                        <a href="https://www.hitachivantara.com/en-us/support/products/storage/tagmastore.html" class="download-link external" target="_blank">🔗 Hitachi Support</a>
                     </div>
                 </div>
             </div>
@@ -236,33 +498,120 @@
             <div class="vendor-section" data-vendor="netapp">
                 <h2>🔷 NetApp</h2>
                 <div class="array-grid">
+                    <!-- Current -->
                     <div class="array-card current">
                         <h3>AFF A-Series (A150/A250/A400/A800/A900)</h3>
                         <span class="year">2018-2023</span>
                         <span class="type">All-Flash NAS/SAN</span>
                         <p>End-to-end NVMe all-flash arrays</p>
-                        <a href="pdfs/NetApp/NetApp_AFF_A250_Documentation.pdf" class="download-link" target="_blank">📄 Download Documentation</a>
+                        <a href="pdfs/NetApp/NetApp_AFF_A250_Documentation.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
+                    </div>
+                    <div class="array-card current">
+                        <h3>AFF C-Series (C250/C400/C800)</h3>
+                        <span class="year">2022</span>
+                        <span class="type">Capacity All-Flash</span>
+                        <p>Capacity-optimized all-flash</p>
+                        <a href="https://www.netapp.com/data-storage/aff-c-series/" class="download-link external" target="_blank">🔗 NetApp.com</a>
+                    </div>
+                    <div class="array-card current">
+                        <h3>FAS50</h3>
+                        <span class="year">2024</span>
+                        <span class="type">Hybrid</span>
+                        <p>Latest generation entry FAS</p>
+                        <a href="https://www.netapp.com/data-storage/fas/" class="download-link external" target="_blank">🔗 NetApp.com</a>
+                    </div>
+                    <div class="array-card current">
+                        <h3>FAS2820</h3>
+                        <span class="year">2022</span>
+                        <span class="type">Hybrid</span>
+                        <p>Entry rack-optimized FAS</p>
+                        <a href="https://www.netapp.com/data-storage/fas/" class="download-link external" target="_blank">🔗 NetApp.com</a>
+                    </div>
+                    <div class="array-card current">
+                        <h3>FAS8300/8700</h3>
+                        <span class="year">2019</span>
+                        <span class="type">Hybrid</span>
+                        <p>Mid to high-range hybrid</p>
+                        <a href="https://www.netapp.com/data-storage/fas/" class="download-link external" target="_blank">🔗 NetApp.com</a>
+                    </div>
+                    <div class="array-card current">
+                        <h3>ASA A250/A400/A800</h3>
+                        <span class="year">2020</span>
+                        <span class="type">SAN</span>
+                        <p>NVMe SAN-optimized</p>
+                        <a href="https://www.netapp.com/data-storage/asa/" class="download-link external" target="_blank">🔗 NetApp.com</a>
+                    </div>
+                    <div class="array-card current">
+                        <h3>ASA C250/C400/C800</h3>
+                        <span class="year">2022</span>
+                        <span class="type">SAN</span>
+                        <p>Capacity-optimized SAN</p>
+                        <a href="https://www.netapp.com/data-storage/asa/" class="download-link external" target="_blank">🔗 NetApp.com</a>
+                    </div>
+
+                    <!-- Discontinued -->
+                    <div class="array-card discontinued">
+                        <h3>FAS9000</h3>
+                        <span class="year">2016-2022</span>
+                        <span class="type">Hybrid</span>
+                        <p>Maximum scale hybrid</p>
+                        <a href="https://www.netapp.com/support-and-training/documentation/" class="download-link external" target="_blank">🔗 NetApp Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>FAS2750</h3>
+                        <span class="year">2017-2022</span>
+                        <span class="type">Hybrid</span>
+                        <p>Entry hybrid FAS</p>
+                        <a href="https://www.netapp.com/support-and-training/documentation/" class="download-link external" target="_blank">🔗 NetApp Support</a>
                     </div>
                     <div class="array-card discontinued">
                         <h3>FAS8000 Series</h3>
                         <span class="year">2014-2018</span>
-                        <span class="type">Unified Storage</span>
+                        <span class="type">Unified</span>
                         <p>Scale-out unified architecture</p>
-                        <a href="pdfs/NetApp/NetApp_FAS8000_Series_Datasheet.pdf" class="download-link" target="_blank">📄 Download Datasheet</a>
+                        <a href="pdfs/NetApp/NetApp_FAS8000_Series_Datasheet.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
                     </div>
                     <div class="array-card discontinued">
                         <h3>FAS2500 Series</h3>
                         <span class="year">2013-2017</span>
                         <span class="type">Entry Unified</span>
                         <p>Best-in-class value for SMB</p>
-                        <a href="pdfs/NetApp/NetApp_FAS2500_Series_Datasheet.pdf" class="download-link" target="_blank">📄 Download Datasheet</a>
+                        <a href="pdfs/NetApp/NetApp_FAS2500_Series_Datasheet.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
                     </div>
                     <div class="array-card discontinued">
                         <h3>FAS2000 Series</h3>
                         <span class="year">2009-2013</span>
                         <span class="type">Entry Unified</span>
-                        <p>Departmental and remote office storage</p>
-                        <a href="pdfs/NetApp/NetApp_FAS2000_Series_Datasheet.pdf" class="download-link" target="_blank">📄 Download Datasheet</a>
+                        <p>Departmental and remote office</p>
+                        <a href="pdfs/NetApp/NetApp_FAS2000_Series_Datasheet.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>FAS3000 Series (3020/3050/3070)</h3>
+                        <span class="year">2005-2009</span>
+                        <span class="type">Mid-range Unified</span>
+                        <p>Predecessor to FAS3000 refresh</p>
+                        <a href="https://www.netapp.com/support-and-training/documentation/" class="download-link external" target="_blank">🔗 NetApp Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>FAS3100 Series (3140/3160/3170)</h3>
+                        <span class="year">2007-2011</span>
+                        <span class="type">Mid-range Unified</span>
+                        <p>Mid-range FAS generation</p>
+                        <a href="https://www.netapp.com/support-and-training/documentation/" class="download-link external" target="_blank">🔗 NetApp Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>NearStore R150/R200</h3>
+                        <span class="year">2004-2010</span>
+                        <span class="type">Archive NAS</span>
+                        <p>SATA-based archive storage</p>
+                        <a href="https://www.netapp.com/support-and-training/documentation/" class="download-link external" target="_blank">🔗 NetApp Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>Cloud Volumes ONTAP</h3>
+                        <span class="year">2017</span>
+                        <span class="type">Cloud NAS/SAN</span>
+                        <p>AWS/Azure/GCP software-defined</p>
+                        <a href="https://www.netapp.com/cloud-services/cloud-volumes-ontap/" class="download-link external" target="_blank">🔗 NetApp.com</a>
                     </div>
                 </div>
             </div>
@@ -271,64 +620,204 @@
             <div class="vendor-section" data-vendor="hpe">
                 <h2>🟣 HPE</h2>
                 <div class="array-grid">
+                    <!-- Current -->
+                    <div class="array-card current">
+                        <h3>Alletra 5000</h3>
+                        <span class="year">2021</span>
+                        <span class="type">Unified</span>
+                        <p>Cloud-native unified storage</p>
+                        <a href="https://www.hpe.com/us/en/storage/alletra.html" class="download-link external" target="_blank">🔗 HPE.com</a>
+                    </div>
+                    <div class="array-card current">
+                        <h3>Alletra 6000</h3>
+                        <span class="year">2021</span>
+                        <span class="type">Unified</span>
+                        <p>Mid-range unified</p>
+                        <a href="https://www.hpe.com/us/en/storage/alletra.html" class="download-link external" target="_blank">🔗 HPE.com</a>
+                    </div>
+                    <div class="array-card current">
+                        <h3>Alletra 9000</h3>
+                        <span class="year">2022</span>
+                        <span class="type">Unified</span>
+                        <p>High-end mission-critical</p>
+                        <a href="https://www.hpe.com/us/en/storage/alletra.html" class="download-link external" target="_blank">🔗 HPE.com</a>
+                    </div>
+
+                    <!-- Discontinued -->
+                    <div class="array-card discontinued">
+                        <h3>Primera 600</h3>
+                        <span class="year">2019</span>
+                        <span class="type">SAN</span>
+                        <p>Tier-1 all-flash SAN</p>
+                        <a href="https://www.hpe.com/psnow/doc/PSN1011657880WWEN.pdf" class="download-link external" target="_blank">🔗 HPE Datasheet</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>Primera 630/650/670</h3>
+                        <span class="year">2020</span>
+                        <span class="type">SAN</span>
+                        <p>Scalable tier-1 storage</p>
+                        <a href="https://www.hpe.com/us/en/storage/primera.html" class="download-link external" target="_blank">🔗 HPE Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>3PAR 8000 Series (8200/8400/8450/20800)</h3>
+                        <span class="year">2015-2022</span>
+                        <span class="type">SAN</span>
+                        <p>Current generation 3PAR</p>
+                        <a href="https://www.hpe.com/us/en/storage/3par.html" class="download-link external" target="_blank">🔗 HPE Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>3PAR 9000 Series (9200/9440/9480/20850)</h3>
+                        <span class="year">2017-2022</span>
+                        <span class="type">SAN</span>
+                        <p>High-end 3PAR tier</p>
+                        <a href="https://www.hpe.com/us/en/storage/3par.html" class="download-link external" target="_blank">🔗 HPE Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>3PAR 20000 Series</h3>
+                        <span class="year">2015-2022</span>
+                        <span class="type">SAN</span>
+                        <p>Maximum scale 3PAR</p>
+                        <a href="https://www.hpe.com/us/en/storage/3par.html" class="download-link external" target="_blank">🔗 HPE Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>3PAR T-Class (T400/T800)</h3>
+                        <span class="year">2008-2015</span>
+                        <span class="type">SAN</span>
+                        <p>Pre-HPE acquisition 3PAR</p>
+                        <a href="https://www.hpe.com/us/en/storage/3par.html" class="download-link external" target="_blank">🔗 HPE Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>3PAR F-Class (F200/F400)</h3>
+                        <span class="year">2008-2015</span>
+                        <span class="type">SAN</span>
+                        <p>Pre-HPE 3PAR mid-range</p>
+                        <a href="https://www.hpe.com/us/en/storage/3par.html" class="download-link external" target="_blank">🔗 HPE Support</a>
+                    </div>
                     <div class="array-card discontinued">
                         <h3>EVA 4400/6400/8400</h3>
                         <span class="year">2007-2015</span>
                         <span class="type">Virtual Array</span>
-                        <p>Enterprise Virtual Array, popular mid-range choice</p>
-                        <a href="pdfs/HPE/HPE_EVA_4400_6400_8400_Datasheet.pdf" class="download-link" target="_blank">📄 Download Datasheet</a>
+                        <p>Enterprise Virtual Array</p>
+                        <a href="pdfs/HPE/HPE_EVA_4400_6400_8400_Datasheet.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
                     </div>
                     <div class="array-card discontinued">
-                        <h3>MSA 2050</h3>
-                        <span class="year">2014</span>
+                        <h3>EVA P6300/P6500</h3>
+                        <span class="year">2010-2015</span>
+                        <span class="type">Virtual Array</span>
+                        <p>Later EVA generation</p>
+                        <a href="https://www.hpe.com/support/eva-series" class="download-link external" target="_blank">🔗 HPE Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>MSA 1050</h3>
+                        <span class="year">2017-2021</span>
                         <span class="type">Entry SAN</span>
-                        <p>Modular Smart Array for SMB</p>
-                        <a href="pdfs/HPE/HPE_MSA_2050_Quickspecs.pdf" class="download-link" target="_blank">📄 Download Quickspecs</a>
+                        <p>Entry MSA generation</p>
+                        <a href="https://www.hpe.com/us/en/storage/modular-smart-array.html" class="download-link external" target="_blank">🔗 HPE.com</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>MSA 2040/2050/2060/2062</h3>
+                        <span class="year">2014</span>
+                        <span class="type">Mid-range SAN</span>
+                        <p>Modular Smart Array series</p>
+                        <a href="pdfs/HPE/HPE_MSA_2050_Quickspecs.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>Nimble AF20/AF40/AF60/AF80</h3>
+                        <span class="year">2016</span>
+                        <span class="type">All-Flash</span>
+                        <p>All-flash Nimble arrays</p>
+                        <a href="https://www.hpe.com/us/en/storage/nimble.html" class="download-link external" target="_blank">🔗 HPE.com</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>Nimble HF20/HF40/HF60</h3>
+                        <span class="year">2016</span>
+                        <span class="type">Hybrid</span>
+                        <p>Hybrid Nimble arrays</p>
+                        <a href="https://www.hpe.com/us/en/storage/nimble.html" class="download-link external" target="_blank">🔗 HPE.com</a>
                     </div>
                     <div class="array-card discontinued">
                         <h3>LeftHand P4000 Series</h3>
                         <span class="year">2007-2016</span>
                         <span class="type">iSCSI SAN</span>
                         <p>Scale-out iSCSI storage</p>
-                        <a href="pdfs/HPE/HPE_LeftHand_P4000_Datasheet.pdf" class="download-link" target="_blank">📄 Download Datasheet</a>
+                        <a href="pdfs/HPE/HPE_LeftHand_P4000_Datasheet.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>XP7/XP8</h3>
+                        <span class="year">2014-2020</span>
+                        <span class="type">Enterprise SAN</span>
+                        <p>HPE enterprise tier (OEM Hitachi)</p>
+                        <a href="https://www.hpe.com/us/en/storage/xp-storage.html" class="download-link external" target="_blank">🔗 HPE Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>XP20000/XP24000</h3>
+                        <span class="year">2007-2014</span>
+                        <span class="type">Enterprise SAN</span>
+                        <p>Previous XP generation</p>
+                        <a href="https://www.hpe.com/us/en/storage/xp-storage.html" class="download-link external" target="_blank">🔗 HPE Support</a>
+                    </div>
+                    <div class="array-card discontinued">
+                        <h3>StoreVirtual</h3>
+                        <span class="year">2010-2018</span>
+                        <span class="type">Virtual SAN</span>
+                        <p>Software-defined storage</p>
+                        <a href="https://www.hpe.com/us/en/storage/storevirtual.html" class="download-link external" target="_blank">🔗 HPE Support</a>
                     </div>
                 </div>
             </div>
 
-            <!-- Everpure (formerly Pure Storage) Section -->
+            <!-- Pure Storage/Everpure Section -->
             <div class="vendor-section" data-vendor="everpure">
                 <h2>⚡ Everpure <small>(formerly Pure Storage)</small></h2>
                 <p style="color: #64748b; font-size: 0.9rem; margin-bottom: 1rem;">🔄 <strong>Rebrand Alert:</strong> Pure Storage became Everpure in February 2026. Product names transitioning through 2026.</p>
+                
                 <div class="array-grid">
+                    <!-- Current -->
                     <div class="array-card current">
-                        <h3>FlashArray //X Series</h3>
+                        <h3>FlashArray //X Series (X10/X20/X50/X70/X90)</h3>
                         <span class="year">2018</span>
                         <span class="type">NVMe All-Flash</span>
                         <p>Extreme performance NVMe storage</p>
-                        <a href="pdfs/PureStorage/PureStorage_FlashArray_X_datasheet.pdf" class="download-link" target="_blank">📄 Download //X Datasheet</a>
+                        <a href="pdfs/PureStorage/PureStorage_FlashArray_X_datasheet.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
                     </div>
                     <div class="array-card current">
-                        <h3>FlashArray Family</h3>
-                        <span class="year">2018-2023</span>
-                        <span class="type">All-Flash SAN</span>
-                        <p>Unified FlashArray product family</p>
-                        <a href="pdfs/PureStorage/PureStorage_FlashArray_Family_datasheet.pdf" class="download-link" target="_blank">📄 Download Family Datasheet</a>
+                        <h3>FlashArray //XL</h3>
+                        <span class="year">2022</span>
+                        <span class="type">All-Flash</span>
+                        <p>Maximum capacity FlashArray</p>
+                        <a href="https://www.purestorage.com/products/flasharray-xl.html" class="download-link external" target="_blank">🔗 Everpure.com</a>
+                    </div>
+                    <div class="array-card current">
+                        <h3>FlashArray //C</h3>
+                        <span class="year">2019</span>
+                        <span class="type">All-Flash</span>
+                        <p>Capacity-optimized QLC</p>
+                        <a href="https://www.purestorage.com/products/flasharray-c.html" class="download-link external" target="_blank">🔗 Everpure.com</a>
                     </div>
                     <div class="array-card current">
                         <h3>FlashBlade //S</h3>
                         <span class="year">2021</span>
                         <span class="type">Unified File/Object</span>
-                        <p>Scale-out unified fast file and object storage</p>
-                        <a href="pdfs/PureStorage/PureStorage_FlashBlade_S_datasheet.pdf" class="download-link" target="_blank">📄 Download FlashBlade S</a>
+                        <p>Scale-out unified fast file/object</p>
+                        <a href="pdfs/PureStorage/PureStorage_FlashBlade_S_datasheet.pdf" class="download-link" target="_blank">🟢 Download PDF</a>
+                    </div>
+                    <div class="array-card current">
+                        <h3>FlashBlade //E</h3>
+                        <span class="year">2023</span>
+                        <span class="type">All-Flash</span>
+                        <p>Entry scale-out storage</p>
+                        <a href="https://www.purestorage.com/products/flashblade-e.html" class="download-link external" target="_blank">🔗 Everpure.com</a>
                     </div>
                 </div>
             </div>
+
         </section>
     </main>
 
     <footer>
         <p>Created by <a href="https://github.com/jp-moregain">@jp-moregain</a> | Data collected February 2026</p>
         <p>⚠️ Spec sheets are archived from public sources for educational purposes</p>
+        <p>🟢 = PDF Available | 🔗 = External Link | Updates ongoing</p>
     </footer>
 
     <script src="js/app.js"></script>
